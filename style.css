@@ -1,0 +1,115 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #393956;
+    min-height: 100vh;
+    margin: 2em;
+}
+
+p {
+    margin: 0;
+    line-height: 150%;
+    color: rgb(150, 150, 150);
+}
+
+.card-item p {
+    font-size: .9em;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 200;
+    line-height: 150%;
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.text-content-container {
+    max-width: 32em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .6em;
+    margin-bottom: 4em;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8em;  
+}
+
+
+
+.card-item {
+    max-width: 20em;
+    box-shadow: 0 4px 8px rgba(15, 6, 60, 0.25);
+    padding: 1.6em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+    border-top: 5px solid black;
+    border-radius: 5px;
+}
+
+.vertical-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.card-item div {
+    margin-right: 3.6em;
+}
+
+.card-item h2 {
+    margin-bottom: .5em;
+}
+
+.aqua {
+    border-color: rgb(0, 221, 221);
+}
+
+.red {
+    border-color: rgb(200, 0, 0);
+}
+
+.yellow {
+    border-color: rgb(243, 182, 0);
+}
+
+.blue {
+    border-color: rgb(0, 170, 255);
+}
+
+
+.card-icon {
+    align-self: flex-end;
+}
+
+
+@media screen and (min-width: 75em) {
+    .card-items {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
